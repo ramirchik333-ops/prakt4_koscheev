@@ -1,0 +1,100 @@
+﻿<Window x:Class="prakt4_koscheev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prakt4_koscheev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    
+
+        <Window.Resources>
+            
+            <local:Subscription x:Key="CurrentSubscription"/>
+        </Window.Resources>
+
+     
+        <Window.DataContext>
+            <Binding Source="{StaticResource CurrentSubscription}"/>
+        </Window.DataContext>
+
+        <Grid Margin="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+          
+            <GroupBox Grid.Row="0" Header="поиск абонемента" Margin="0,0,0,10">
+                <Grid Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="ID:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Grid.Column="1" x:Name="txtSearchId" Margin="0,0,10,0" VerticalAlignment="Center"/>
+                    <Button Grid.Column="2" Content="найти" Width="100" Click="BtnFind_Click"/>
+                </Grid>
+            </GroupBox>
+
+     
+            <GroupBox Grid.Row="1" Header="данные абонемента">
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="160"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                   
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="ID абонемента:" VerticalAlignment="Center" Margin="0,8"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Id}" VerticalAlignment="Center" 
+                           Margin="0,8" FontWeight="Bold" Foreground="DarkBlue"/>
+
+                
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="владелец:" VerticalAlignment="Center" Margin="0,8"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Owner, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,8" Padding="3"/>
+
+                   
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="стоимость месяца:" VerticalAlignment="Center" Margin="0,8"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding MonthlyPrice, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,8" Padding="3"/>
+
+               
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="количество месяцев:" VerticalAlignment="Center" Margin="0,8"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding MonthsCount, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,8" Padding="3"/>
+
+           
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="скидка (%):" VerticalAlignment="Center" Margin="0,8"/>
+                    <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Discount, UpdateSourceTrigger=PropertyChanged}" 
+                         Margin="0,8" Padding="3"/>
+
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="итоговая стоимость:" VerticalAlignment="Center" 
+                           Margin="0,8" FontWeight="Bold"/>
+                    <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding TotalCost, StringFormat={}{0:N2} руб.}" 
+                           VerticalAlignment="Center" Margin="0,8" FontWeight="Bold" Foreground="DarkGreen"/>
+                </Grid>
+            </GroupBox>
+
+      
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                <Button Content="новая запись" Width="130" Margin="0,0,15,0" Click="BtnNew_Click"/>
+                <Button Content="сохранить" Width="130" Click="BtnSave_Click"/>
+            </StackPanel>
+        </Grid>
+
+
+
+</Window>

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|c:\\users\\user\\desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|solutionrelative:prakt4_koscheev\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|c:\\users\\user\\desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|solutionrelative:prakt4_koscheev\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|c:\\users\\user\\desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\substriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DCB2F9-0C10-41EF-8E58-F5371C153A93}|prakt4_koscheev\\prakt4_koscheev.csproj|solutionrelative:prakt4_koscheev\\substriction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Substriction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\Substriction.cs",
+              "RelativeDocumentMoniker": "prakt4_koscheev\\Substriction.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\Substriction.cs",
+              "RelativeToolTip": "prakt4_koscheev\\Substriction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:32:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "prakt4_koscheev\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\MainWindow.xaml",
+              "RelativeToolTip": "prakt4_koscheev\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-08T04:28:13.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "prakt4_koscheev\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0443\u0447\u0435\u0431\u0430\\prakt4_koscheev\\prakt4_koscheev\\MainWindow.xaml.cs",
+              "RelativeToolTip": "prakt4_koscheev\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T04:28:03.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
